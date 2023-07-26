@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1689965163 "c:/Users/Owen Sheed/Documents/GitHub/Resume/main.tex" "main.pdf" "main" 1689965163 0
-  "c:/Users/Owen Sheed/Documents/GitHub/Resume/main.tex" 1689736860 7921 92c605d7d618f07f4a84f66cc786a594 ""
+["pdflatex"] 1690397987 "c:/Users/Owen Sheed/Documents/GitHub/Resume/main.tex" "main.pdf" "main" 1690397988 0
+  "c:/Users/Owen Sheed/Documents/GitHub/Resume/main.tex" 1690397986 8289 a52812787299298bab6ec8285e1cabf3 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1689959382 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1689958296 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1689958296 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -23,9 +23,12 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1689957422 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1689957422 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1689957422 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1689957422 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1689957422 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1689957422 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1689957422 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1689957422 32587 65067f817f408bc71a7312f3d9828a9b ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1689957422 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1689957422 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1689961000 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1689957574 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -45,6 +48,7 @@
   "c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty" 1689961454 19007 15924f7228aca6c6d184b115f4baa231 ""
   "c:/texlive/2023/texmf-dist/tex/generic/pdftex/glyphtounicode.tex" 1689961482 216747 92ec6cf8e39216b4894417b5aa6f057a ""
   "c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1689961486 20089 80423eac55aa175305d35b49e04fe23b ""
+  "c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty" 1689963305 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1689963359 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "c:/texlive/2023/texmf-dist/tex/latex/atveryend/atveryend.sty" 1689957582 19336 ce7ae9438967282886b3b036cfad1e4d ""
   "c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty" 1689957605 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
@@ -86,9 +90,9 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1689963798 4683009 f44d3a562855f206dbb66b0b8d7fb6a7 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1689963913 8172472 a601fb58bc4ac6958c7aa7e14b468183 ""
   "c:/texlive/2023/texmf.cnf" 1689963784 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1689965163 1065 756d84d9150b02d5f08aee1660983b1c "pdflatex"
-  "main.out" 1689965163 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "main.tex" 1689736860 7921 92c605d7d618f07f4a84f66cc786a594 ""
+  "main.aux" 1690397988 1065 143e3b63098a2625d43c2e658acbf937 "pdflatex"
+  "main.out" 1690397988 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "main.tex" 1690397986 8289 a52812787299298bab6ec8285e1cabf3 ""
   (generated)
   "main.aux"
   "main.log"

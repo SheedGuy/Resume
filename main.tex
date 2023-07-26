@@ -1,8 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author : Owen Sheed
 % Based off of: https://github.com/sb2nov/resume
-% License : MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -14,10 +13,11 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{ulem}
+\usepackage[hidelinks]{hyperref}
 \input{glyphtounicode}
 
 
@@ -106,11 +106,13 @@
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Owen Sheed} \\ \vspace{1pt}
-    \small 203-571-2099 $|$ \href{mailto:osheed@elon.edu}{\underline{osheed@elon.edu}} $|$ 
-    \href{https://www.linkedin.com/in/owensheed/}{\underline{linkedin.com/in/OwenSheed}} $|$
-    \href{https://github.com/SheedGuy}{\underline{github.com/SheedGuy}}
+  \textbf{\Huge \scshape Owen Sheed} \\ \vspace{1pt}
+  \small 203-571-2099 $|$
+  \href{mailto:osheed@elon.edu}{\uline{osheed@elon.edu}} $|$ 
+  \href{https://www.linkedin.com/in/owensheed/}{\uline{linkedin.com/in/OwenSheed}} $|$
+  \href{https://github.com/SheedGuy}{\uline{github.com/SheedGuy}}
 \end{center}
+
 
 
 %-----------EDUCATION-----------
@@ -131,9 +133,9 @@
       {Equiniti Trust Company}{New York, NY}
       \resumeItemListStart
         \resumeItem{Developed a REST API in ASP.NET Core for user data, integrating JWT authentication, log4net logging, and async endpoints; stress-tested using a multithreaded Python script.}
-        \resumeItem{Constructed a tool that parsed log files to produce detailed Excel reports, with features like error-specific reporting and SMTP-driven email delivery}
-        \resumeItem{Acquired in-depth proficiency in C\# and .NET, focusing on advanced features like lambda expressions, asynchronous functions, and secure data handling techniques}
-        \resumeItem{Strengthened abilities in effective communication, rapid learning, and problem-solving, coupled with insights into the financial domain, particularly regarding funds and transfer agents}
+        \resumeItem{Constructed a tool that parsed log files to produce detailed Excel reports, with features like error-specific reporting and SMTP-driven email delivery.}
+        \resumeItem{Acquired in-depth proficiency in C\# and .NET, focusing on advanced features like lambda expressions, asynchronous functions, and secure data handling techniques.}
+        \resumeItem{Strengthened abilities in effective communication, rapid learning, and problem-solving, coupled with insights into the finance industry, particularly regarding funds and transfer agents.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -151,7 +153,7 @@
       {EJB Investments}{Miami, FL}
       \resumeItemListStart
         \resumeItem{Played a pivotal role in the successful release of a combined art and utility NFT collection, securing a 5-minute sellout, 30 ETH in volume, and 1.2k verified holders.}
-        \resumeItem{Conducted comprehensive investment analyses, fostering relationships with potential investors, thereby facilitating funding for multiple investment ventures}
+        \resumeItem{Conducted comprehensive investment analyses, fostering relationships with potential investors, thereby facilitating funding for multiple investment ventures.}
         \resumeItem{Personally designed and built high-performance computers tailored for demanding applications, resulting in over a 151\% speed enhancement, accelerating mission-critical processes.}
         \resumeItem{Oversaw a marketing team that grew a Twitter audience to 70k followers. Led an NFT sticker campaign, distributing branded stickers to ambassadors in major cities, sparking widespread social media engagement.}
     \resumeItemListEnd
@@ -167,16 +169,16 @@
           \resumeItemListStart
             \resumeItem{Backend development for service, focusing on the ``Applications'' module, leveraging the Chi router and PostgreSQL for efficient data handling.}
             \resumeItem{Designed key CRUD operations for user applications, from registration to revocation.}
-            \resumeItem{Enhanced error handling and logging using the Logrus library, ensuring system resilience and ease of debugging}
-            \resumeItem{Employed the Mockery library for rigorous testing, ensuring code reliability and robustness}
+            \resumeItem{Enhanced error handling and logging using the Logrus library, ensuring system resilience and ease of debugging.}
+            \resumeItem{Employed the Mockery library for rigorous testing, ensuring code reliability and robustness.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          {\textbf{Protein Folding Optimization} $|$ \emph{C, Pthreads, Performance Tuning and Analysis}}{May 2018 -- May 2020}
           \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+            \resumeItem{Developed a program to calculate the maximum number of H-H contacts in a given n-length protein, exhaustively walking of every possible protein fold.}
+            \resumeItem{Enhanced performance by multithreading with PThreads and aggressively optimizing base code such that each n-length protein only needs to score $3^{n-2}$ walks as opposed to the $4^{n-1}$ walks in the original.}
+            \resumeItem{Achieved notable speed improvements: a 12-character protein previously took 132.98s, while the optimized parallel version completed in just 0.0269s. On average, the optimized parallel program decreased runtime by over 99\%.}
+            \resumeItem{Conducted comprehensive performance testing, utilizing python to write to Excel files for in-depth analysis and optimization metrics.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -187,10 +189,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: Python, Java, C/C++/C\#, Go, SQL (Postgres, MySQL), Arm Assembly, LaTeX} \\
+     \textbf{Frameworks}{: .NET Framework, ASP.NET Core, Next.JS, OpenCL} \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code, PyCharm, IntelliJ, Anaconda, TablePlus, Postman, VMWare} \\
+     \textbf{Libraries}{: pandas, NumPy, Pthreads, CUDA, MPI, Chi Router, Requests}
     }}
  \end{itemize}
 
