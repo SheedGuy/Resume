@@ -1,6 +1,7 @@
 %-------------------------
 % Resume in Latex
 % Author : Owen Sheed
+% Resume: Software Engineering
 % Based off of: https://github.com/sb2nov/resume
 %------------------------
 
@@ -131,6 +132,17 @@
       {Bachelor of Science in Computer Science, Minor in Data Analytics; GPA: 3.29}{Aug. 2020 -- Dec. 2024}
   \resumeSubHeadingListEnd
 
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, Javascript, C/C++/C\#, Go, SQL (Postgres, MySQL), Arm Assembly} \\
+     \textbf{Frameworks}{: Spring Boot, .NET Framework, ASP.NET Core, Next.JS, Node.JS, OpenCL} \\
+     \textbf{Developer Tools}{: AWS, Git, Postman, Colab, VS Code, IntelliJ (IDEA, PyCharm, CLion), Anaconda, Linux} \\
+     \textbf{Libraries}{: pandas, NumPy, Java AWS SDK, boto3, Lombok, Pthreads, CUDA, MPI, Requests}
+    }}
+ \end{itemize}
+
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -161,7 +173,6 @@
       {EJB Investments}{Miami, FL}
       \resumeItemListStart
         \resumeItem{Played a pivotal role in the successful release of a combined art and utility NFT collection, securing a 5-minute sellout, 30 ETH in volume, and 1.2k verified holders.}
-        \resumeItem{Conducted comprehensive investment analyses, fostering relationships with potential investors, thereby facilitating funding for multiple investment ventures.}
         \resumeItem{Personally designed and built high-performance computers tailored for demanding applications, resulting in over a 151\% speed enhancement, accelerating mission-critical processes.}
         \resumeItem{Oversaw a marketing team that grew a Twitter audience to 70k followers. Led an NFT sticker campaign, distributing branded stickers to ambassadors in major cities, sparking widespread social media engagement.}
     \resumeItemListEnd
@@ -181,28 +192,27 @@
             \resumeItem{Employed the Mockery library for rigorous testing, ensuring code reliability and robustness.}
           \resumeItemListEnd
       \resumeProjectHeading
+          {\textbf{Open Data Service} $|$ \emph{Go, Chi Router, PostgreSQL, Logrus}}{February 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Backend development for service, focusing on the ``Applications'' module, leveraging the Chi router and PostgreSQL for efficient data handling.}
+            \resumeItem{Designed key CRUD operations for user applications, from registration to revocation.}
+            \resumeItem{Enhanced error handling and logging using the Logrus library, ensuring system resilience and ease of debugging.}
+            \resumeItem{Employed the Mockery library for rigorous testing, ensuring code reliability and robustness.}
+          \resumeItemListEnd
+      \resumeProjectHeading
           {\textbf{Protein Folding Simulation} $|$ \emph{C, Pthreads, Performance Tuning and Analysis}}{February 2023 -- March 2023}
           \resumeItemListStart
             \resumeItem{Developed a program to calculate the maximum number of H-H contacts in a given n-length protein, exhaustively walking every possible protein fold.}
             \resumeItem{Enhanced performance by multithreading with PThreads and aggressively optimizing base code such that each n-length protein only needs to score $3^{n-2}$ walks as opposed to the $4^{n-1}$ walks in the original.}
             \resumeItem{Achieved notable speed improvements: a 12-character protein previously took 132.98s, while the optimized parallel version completed in just 0.0269s. On average, the optimized parallel program decreased runtime by over 99\%.}
-            \resumeItem{Conducted comprehensive performance testing, utilizing python to write to Excel files for in-depth analysis and optimization metrics.}
+            % \resumeItem{Conducted comprehensive performance testing, utilizing python to write to Excel files for in-depth analysis and optimization metrics.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
 
 %
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Java, Javascript, C/C++/C\#, Go, SQL (Postgres, MySQL), Arm Assembly} \\
-     \textbf{Frameworks}{: .NET Framework, ASP.NET Core, Next.JS, Node.JS, OpenCL} \\
-     \textbf{Developer Tools}{: AWS, Git, Postman, Colab, VS Code, PyCharm, IntelliJ, Anaconda, TablePlus} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, scikit-learn, Pthreads, CUDA, MPI, Chi Router, Requests}
-    }}
- \end{itemize}
+
 
 
 %-------------------------------------------
